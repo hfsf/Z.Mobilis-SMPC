@@ -195,11 +195,11 @@ def sensitivity_analysis() -> dict:
         elif var_name == 'P_0':
             _var_names.append("$P_{0}$")
         elif var_name == 'X_v0':
-            _var_names.append("$Xv_0$")
+            _var_names.append("$X{v_0}$")
         elif var_name == 'X_nv_0':
-            _var_names.append("$Xnv_0$")
+            _var_names.append("$X_{nv_0}$")
         elif var_name == 'X_d0':
-            _var_names.append("$Xd_0$")
+            _var_names.append("$X_{d_0}$")
         elif var_name == 'Ks':
             _var_names.append("$K_s$")
         elif var_name == 'Kss':
